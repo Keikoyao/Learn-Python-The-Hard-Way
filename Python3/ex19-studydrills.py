@@ -102,8 +102,6 @@ def print_args(*argv):
     if size > 1:
         for i in range(1, size):
             print("The param %d is %r" % (i, argv[i]))
-        return 0
-    return -1
 
 # 1. use numbers as actual parameters
 print_args(10, 20, 30)

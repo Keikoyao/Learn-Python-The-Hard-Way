@@ -5,7 +5,7 @@
 from sys import exit
 
 def gold_room():
-    ''' A room with full of god. '''    
+    ''' A room with full of gold. '''    
     print("This room is full of gold.  How much do you take?")
 
     next = input("> ")
